@@ -1,0 +1,112 @@
+:root { 
+  --black: #000000;
+  --gravel: #474747;
+  --gray: #909090;
+  --masala: #3b3b3b;
+  --monsoon: #898989;
+  --nav-button: #ff83d5;
+  --pale-rose: #ffe3f9;
+  --ship-gray: #3f3f3f;
+  --website-title: #85b6a5;
+  --white: #ffffff;
+ 
+  --font-size-l: 28px;
+  --font-size-m: 24px;
+  --font-size-xl: 30px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 36px;
+  --font-size-xxxxl: 48px;
+  --font-size-xxxxxl: 100px;
+ 
+  --font-family-alegreya: "Alegreya", Helvetica;
+  --font-family-alegreya_sans: "Alegreya Sans", Helvetica;
+  --font-family-alegreya_sc: "Alegreya SC", Helvetica;
+  --font-family-archivo: "Archivo", Helvetica;
+  --font-family-archivo-thinitalic: "Archivo-ThinItalic", Helvetica;
+  --font-family-arima: "Arima", Helvetica;
+  --font-family-arimo: "Arimo", Helvetica;
+  --font-family-eb_garamond: "EB Garamond", Helvetica;
+  --font-family-el_messiri: "El Messiri", Helvetica;
+  --font-family-expletus_sans: "Expletus Sans", Helvetica;
+  --font-family-faustina: "Faustina", Helvetica;
+  --font-family-pacifico: "Pacifico", Helvetica;
+}
+.alegreyasans-thin-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-alegreya_sans);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 100;
+}
+
+.alegreyasc-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-alegreya_sc);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alegreyasc-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-alegreya_sc);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arima-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-arima);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arima-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-arima);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.faustina-normal-ship-gray-32px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-faustina);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arimo-normal-gray-24px {
+  color: var(--gray);
+  font-family: var(--font-family-arimo);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.expletussans-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-expletus_sans);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.archivo-normal-monsoon-32px {
+  color: var(--monsoon);
+  font-family: var(--font-family-archivo);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arima-normal-gravel-28px {
+  color: var(--gravel);
+  font-family: var(--font-family-arima);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}

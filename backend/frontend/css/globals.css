@@ -1,0 +1,370 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Faustina:600italic,400,600|Arimo:400,700|El+Messiri:600|EB+Garamond:600|Alegreya+Sans:100italic,100|Alegreya+SC:400,700|Expletus+Sans:400|Archivo:400|Arima:700,600,400|Alegreya:700|Pacifico:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/65e34534712471ff1fb21492.65e34535712471ff1fb21495.nKycnvf.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mi-nhp-email-ng-k::placeholder {
+  color: #90909099;
+}
+
+.mi-nhp-mt-khu::placeholder {
+  color: #90909099;
+}
+
+.email-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+}
+
+.phone {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+}
+
+.tenwebgmailcom {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+}
+
+.hng-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 74px;
+  min-height: 62px;
+  width: 218px;
+}
+
+.lin-h-vi-chng-ti {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  transition: all 0.2s ease;
+}
+
+.nhng-cu-hi-thng-gp {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  transition: all 0.2s ease;
+}
+
+.v-website-ny {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  transition: all 0.2s ease;
+  width: 189px;
+}
+
+.cc-c-s-y-t-hp-tc {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  transition: all 0.2s ease;
+}
+
+.icon {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 32px;
+  margin-left: 30px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 32px;
+}
+
+.home-icon-1 {
+  cursor: pointer;
+  flex: 1;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 64px;
+}
+
+.button-chat-vi-ai {
+  align-items: center;
+  background-color: var(--nav-button);
+  border-radius: 23px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 199px;
+}
+
+.thng-tin {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.button-dat-lich {
+  align-items: center;
+  background-color: var(--nav-button);
+  border-radius: 23px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 234px;
+}
+
+.t-lch-khm {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.button-thong-tin {
+  align-items: center;
+  background-color: var(--nav-button);
+  border-radius: 23px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 201px;
+}
+
+.chat-vi-ai {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.ng-nhp-1 {
+  color: var(--white);
+  font-family: var(--font-family-arimo);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 150px;
+  margin-bottom: -55.50px;
+  margin-top: -57.50px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.thanh-top-mau-hong {
+  background-color: var(--pale-rose);
+  height: 80px;
+  width: 1440px;
+}
+
+.frame-chinh-user {
+  align-items: flex-start;
+  background-color: #fff7fb;
+  display: flex;
+  height: 654px;
+  left: 0;
+  padding: 3px 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.thanh-trang-tri-user {
+  align-items: flex-start;
+  background-color: #e6e2ff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #877bcd;
+  display: flex;
+  height: 150px;
+  min-width: 1440px;
+  padding: 8px 39px;
+}
+
+.star-2 {
+  align-self: flex-end;
+  height: 32px;
+  margin-bottom: 8px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-3 {
+  height: 32px;
+  margin-left: 2px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-4 {
+  align-self: center;
+  height: 32px;
+  margin-left: 61px;
+  margin-top: 32.0px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  margin-left: 79px;
+  min-height: 126px;
+  width: 48px;
+}
+
+.star {
+  height: 32px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-5 {
+  align-self: flex-end;
+  height: 32px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-7 {
+  align-self: center;
+  height: 32px;
+  margin-left: 97px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.icon-nguoi-dung {
+  height: 48px;
+  margin-right: 1.0px;
+  object-fit: cover;
+  width: 48px;
+}
+
+.star-container-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 75px;
+  min-width: 429px;
+}
+
+.star-12 {
+  align-self: flex-start;
+  height: 32px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-11 {
+  height: 32px;
+  margin-left: 90px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-10 {
+  align-self: center;
+  height: 32px;
+  margin-bottom: 11.0px;
+  margin-left: 116px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.star-8 {
+  height: 32px;
+  margin-left: 95px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.line-2 {
+  height: 3px;
+  margin-right: 9.72px;
+  margin-top: 40px;
+  object-fit: cover;
+  width: 889px;
+}
+
+.button {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
